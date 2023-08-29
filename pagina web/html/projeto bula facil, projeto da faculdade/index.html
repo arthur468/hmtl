@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bula Fácil</title>
+    <link rel="stylesheet" href="/style.css">
+    <script href="/main.js"  defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bula Fácil</h1>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Pesquisar medicamento...">
+            <button id="search-button">Pesquisar</button>
+        </div>
+        <div class="loading" id="loading-indicator">
+            Carregando...
+        </div>
+    </header>
+    <main>
+        <div class="history">
+            <h2>Histórico de Medicamentos</h2>
+            <ul id="history-list">
+                <!-- Itens de histórico serão adicionados aqui -->
+            </ul>
+        </div>
+    
+        <div class="medication-info">
+            <div class="medication-image" id="medication-image">
+                <img src="remedio generico.jpeg" alt="Medicamento">
+                <div class="medication-details">
+                    esse remdio e para uso maiores de 18 anos 
+                    <!-- Detalhes do medicamento serão exibidos aqui ao passar o mouse -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Bula Fácil</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
