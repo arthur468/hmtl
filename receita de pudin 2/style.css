@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:opsz,wght@6..12,800 & family= Poppins:ital,wght@0,400;0,700;0,900;1,600 & família= Roboto:ital,wght@1.700 & display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito Sans' , sans-serif;
+}
+
+body{
+    background-color: rgb(231, 233, 235);
+}
+
+h1{
+    background-color: rgb(248, 241, 241);
+    color:rgb(0, 5, 8);
+    text-align: center;
+    padding: 20px 20px 30px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pudim-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pudim {
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+ 
+}
+
+.pudim:hover {
+    transform: scale(1.1);
+}
+
+.recipe {
+    display: none;
+    width: 100%;
+}
+
+.recipe.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+  h1 {
+    color: #ff6600; 
+  }
+
+  .recipe {
+    background-color: #ffffff; 
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #0f0101;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #ffcc00; 
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+
+  tr:hover {
+    background-color: #ddd; 
+    }
+
